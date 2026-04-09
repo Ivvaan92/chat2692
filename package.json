@@ -1,0 +1,28 @@
+{
+  "name": "chat2692",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ivvaan92/chat2692#readme",
+  "bugs": {
+    "url": "https://github.com/Ivvaan92/chat2692/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivvaan92/chat2692.git"
+  },
+  "license": "ISC",
+  "author": "wWickedd",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  }
+}
